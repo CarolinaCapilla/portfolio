@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 
-.home {
-	height: 80vh;
+.background {
+	background-color: #fff3eb;
 }
 
 .banner-img {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: #fff3eb;
+	padding-bottom: 30px;
 }
 
 .banner-text {

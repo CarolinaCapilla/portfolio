@@ -3,6 +3,21 @@
 span,
 h1,
 p,
-a {
+a,
+h5,
+h3,
+h4,
+h2,
+h6 {
 	font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
 }
