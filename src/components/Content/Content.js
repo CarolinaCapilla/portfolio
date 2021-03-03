@@ -10,13 +10,13 @@ const Content = () => {
   return (
     <div className="background">
       <div className="px-4 py-16 mx-auto md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <h1 className="text-center text-purple-900 font-bold mx-auto md:text-3xl uppercase mb-3 md:p-6">
+        <h2 className="text-center text-purple-900 font-bold mx-auto text-3xl md:text-3xl uppercase mb-3 md:p-6">
           About me
-        </h1>
+        </h2>
         <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
           <div className="flex flex-col justify-center">
             <div className="max-w-xl mb-6">
-              <h2 className="max-w-lg mb-6 font-sans text-center md:text-xl font-bold tracking-tight text-gray-900 sm:leading-none">
+              <h2 className="max-w-lg mb-6 font-sans md:text-xl text-2xl font-bold tracking-tight text-gray-900 sm:leading-none">
                 I'm your new
                 <span className="relative px-1">
                   <div className="absolute px-1 inset-x-0 bottom-0 h-3 transform -skew-x-12" />
@@ -37,7 +37,7 @@ const Content = () => {
                 also very capable on my own.
               </p>
             </div>
-            <p className="mb-4 text-sm font-bold md:text-xl tracking-widest uppercase text-purple-900">
+            <p className="mb-4 font-bold text-xl md:text-xl tracking-widest uppercase text-purple-900">
               My Stack
             </p>
             <div className="grid grid-flow-col">
