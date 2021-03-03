@@ -58,7 +58,7 @@ const Content = () => {
                   <span className="mr-1">
                     <SiJavascript className="w-5 h-5 mt-px text-yellow-300" />
                   </span>
-                  Javascript
+                  Javascript ES6
                 </li>
               </ul>
               <ul className="space-y-3">
