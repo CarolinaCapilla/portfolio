@@ -29,7 +29,7 @@ const Navbar = () => {
               <rect x="14" y="1" width="7" height="6" />
               <rect x="14" y="11" width="7" height="12" />
             </svg>
-            <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+            <span class="ml-2 md:text-xl font-bold tracking-wide text-gray-100 uppercase">
               Carolina Capilla
             </span>
           </a>
@@ -37,11 +37,11 @@ const Navbar = () => {
             <li>
               <a
                 href="/"
-                aria-label="Our product"
-                title="Our product"
+                aria-label="About"
+                title="About"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Product
+                About
               </a>
             </li>
             <li>
@@ -109,7 +109,7 @@ const Navbar = () => {
                         class="inline-flex items-center"
                       >
                         <svg
-                          class="w-8 text-deep-purple-accent-400"
+                          class="w-8 text-purple-900"
                           viewBox="0 0 24 24"
                           strokeLinejoin="round"
                           strokeWidth="2"
@@ -123,7 +123,7 @@ const Navbar = () => {
                           <rect x="14" y="1" width="7" height="6" />
                           <rect x="14" y="11" width="7" height="12" />
                         </svg>
-                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                        <span class="ml-2 md:text-xl font-bold tracking-wide text-gray-800 uppercase">
                           Carolina Capilla
                         </span>
                       </a>
@@ -149,11 +149,11 @@ const Navbar = () => {
                       <li>
                         <a
                           href="/"
-                          aria-label="Our product"
-                          title="Our product"
+                          aria-label="About"
+                          title="About"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Product
+                          About
                         </a>
                       </li>
                       <li>
