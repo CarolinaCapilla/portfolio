@@ -35,7 +35,7 @@ const Portfolio = () => {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="View Item"
-                className="md:px-4 md:py-2 px-2 py-1 mb-3 text-center font-medium tracking-wide text-white transition-colors duration-200 transform bg-purple-600 rounded-md dark:bg-gray-800 hover:bg-purple-900 dark:hover:bg-gray-700"
+                className="md:px-4 md:py-2 px-2 py-1 mb-3 text-center font-medium tracking-wide text-white transition-colors duration-200 transform uppercase bg-purple-600 rounded-md dark:bg-gray-800 hover:bg-purple-900 dark:hover:bg-gray-700"
               >
                 See live
               </a>
@@ -44,7 +44,7 @@ const Portfolio = () => {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="View Item"
-                className="md:px-4 md:py-2 px-2 py-1 mb-3 text-center font-medium tracking-wide text-white transition-colors duration-200 transform bg-purple-400 rounded-md dark:bg-gray-800 hover:bg-purple-900 dark:hover:bg-gray-700"
+                className="md:px-4 md:py-2 px-2 py-1 mb-3 text-center font-medium tracking-wide text-white transition-colors duration-200 transform uppercase bg-purple-400 rounded-md dark:bg-gray-800 hover:bg-purple-900 dark:hover:bg-gray-700"
               >
                 Source code
               </a>
@@ -72,7 +72,7 @@ const Portfolio = () => {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="View Item"
-                className="md:px-4 md:py-2 px-2 py-1 mb-3 text-center font-medium tracking-wide text-white transition-colors duration-200 transform bg-purple-600 rounded-md dark:bg-gray-800 hover:bg-purple-900 dark:hover:bg-gray-700"
+                className="md:px-4 md:py-2 px-2 py-1 mb-3 text-center font-medium tracking-wide text-white transition-colors duration-200 transform uppercase bg-purple-600 rounded-md dark:bg-gray-800 hover:bg-purple-900 dark:hover:bg-gray-700"
               >
                 See live
               </a>
@@ -81,7 +81,7 @@ const Portfolio = () => {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="View Item"
-                className="md:px-4 md:py-2 px-2 py-1 mb-3 text-center font-medium tracking-wide text-white transition-colors duration-200 transform bg-purple-400 rounded-md dark:bg-gray-800 hover:bg-purple-900 dark:hover:bg-gray-700"
+                className="md:px-4 md:py-2 px-2 py-1 mb-3 text-center font-medium tracking-wide text-white transition-colors duration-200 transform uppercase bg-purple-400 rounded-md dark:bg-gray-800 hover:bg-purple-900 dark:hover:bg-gray-700"
               >
                 Source code
               </a>
@@ -111,7 +111,7 @@ const Portfolio = () => {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="View Item"
-                className="md:px-4 md:py-2 px-2 py-1 mb-3 text-center font-medium tracking-wide text-white transition-colors duration-200 transform bg-purple-600 rounded-md dark:bg-gray-800 hover:bg-purple-900 dark:hover:bg-gray-700"
+                className="md:px-4 md:py-2 px-2 py-1 mb-3 text-center font-medium tracking-wide text-white transition-colors duration-200 transform uppercase bg-purple-600 rounded-md dark:bg-gray-800 hover:bg-purple-900 dark:hover:bg-gray-700"
               >
                 See live
               </a>
@@ -120,7 +120,7 @@ const Portfolio = () => {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="View Item"
-                className="md:px-4 md:py-2 px-2 py-1 mb-3 text-center font-medium tracking-wide text-white transition-colors duration-200 transform bg-purple-400 rounded-md dark:bg-gray-800 hover:bg-purple-900 dark:hover:bg-gray-700"
+                className="md:px-4 md:py-2 px-2 py-1 mb-3 text-center font-medium tracking-wide text-white transition-colors duration-200 transform uppercase bg-purple-400 rounded-md dark:bg-gray-800 hover:bg-purple-900 dark:hover:bg-gray-700"
               >
                 Source code
               </a>
