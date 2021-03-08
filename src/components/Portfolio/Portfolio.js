@@ -128,6 +128,24 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+      <div className="text-center">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.canva.com/design/DAEFz3OOSq8/4wseicbCHn2-VJLCk7D-VA/view?utm_content=DAEFz3OOSq8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+          aria-label=""
+          className="inline-flex items-center font-semibold transition-colors duration-200 text-purple-600 hover:text-purple-900"
+        >
+          View Resume
+          <svg
+            className="inline-block w-3 ml-2"
+            fill="currentColor"
+            viewBox="0 0 12 12"
+          >
+            <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
+          </svg>
+        </a>
+      </div>
     </div>
   );
 };
