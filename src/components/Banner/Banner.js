@@ -1,4 +1,5 @@
 import React from 'react';
+
 import blob from '../../assets/images/mixed_blobs.gif';
 import './Banner.css';
 

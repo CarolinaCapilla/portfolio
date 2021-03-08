@@ -1,4 +1,5 @@
 import React from 'react';
+import { RiArrowUpSLine } from 'react-icons/ri';
 
 import './Contact.css';
 
@@ -18,9 +19,18 @@ const Contact = () => {
             rel="noopener noreferrer"
             href="mailto:carolina.capilla@gmail.com"
             aria-label=""
-            className="inline-flex items-center md:px-4 md:py-2 px-2 py-1 mb-3 mt-6 text-center font-medium tracking-wide text-white transition-colors duration-200 transform uppercase bg-purple-600 rounded-md dark:bg-gray-800 hover:bg-purple-900 dark:hover:bg-gray-700"
+            className="inline-flex items-center md:px-4 md:py-2 px-2 py-1 mb-3 mt-6 text-center font-medium tracking-wide text-white transition-colors duration-200 transform uppercase bg-purple-600 rounded-md dark:bg-gray-800 hover:bg-purple-900"
           >
             Let's talk
+          </a>
+        </div>
+        <div className="text-center">
+          <a
+            href="/"
+            aria-label=""
+            className="inline-flex items-center md:px-4 md:py-2 px-2 py-1"
+          >
+            <RiArrowUpSLine className="w-12 h-12 text-gray-900"></RiArrowUpSLine>
           </a>
         </div>
       </div>
