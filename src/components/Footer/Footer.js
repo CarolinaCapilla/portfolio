@@ -7,11 +7,11 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="text-gray-600 body-font background">
+    <footer id="footer" className="text-gray-600 body-font background">
       <div className="px-5 py-8 mx-auto flex items-center md:flex-row flex-col">
         <div className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <svg
-            className="w-8 text-purple-900"
+            className="md:w-8 md:text-purple-900"
             viewBox="0 0 24 24"
             strokeLinejoin="round"
             strokeWidth="2"

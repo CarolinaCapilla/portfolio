@@ -1,12 +1,11 @@
 import React from 'react';
-import { RiArrowUpSLine } from 'react-icons/ri';
 import { Link } from 'react-scroll';
 
 import './Contact.css';
 
 const Contact = () => {
   return (
-    <div id="contact" className="background">
+    <div id="contact" className="background mt-20">
       <div className="px-4 py-16 mx-auto md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <h2 className="text-center -m-6 text-purple-900 font-bold mx-auto text-3xl md:text-3xl uppercase">
           Contact
@@ -34,7 +33,6 @@ const Contact = () => {
             activeClass="active"
             className="inline-flex items-center md:px-4 md:py-2 px-2 py-1 cursor-pointer"
           >
-            <RiArrowUpSLine className="w-12 h-12 text-gray-800 transform transition duration-200 hover:-translate-y-1 hover:text-purple-900"></RiArrowUpSLine>
           </Link>
         </div>
       </div>

@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 
-import './Navbar.css';
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -15,7 +13,6 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={1000}
-            activeClass="active"
             className="inline-flex items-center"
           >
             <svg
@@ -44,8 +41,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={1000}
-                activeClass="active"
-                className="font-medium cursor-pointer tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                className="font-medium cursor-pointer tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-800"
               >
                 Home
               </Link>
@@ -56,8 +52,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={1000}
-                activeClass="active"
-                className="font-medium tracking-wide cursor-pointer text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                className="font-medium tracking-wide cursor-pointer text-gray-100 transition-colors duration-200 hover:text-purple-800"
               >
                 About
               </Link>
@@ -68,20 +63,18 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={1000}
-                activeClass="active"
-                className="font-medium cursor-pointer tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                className="font-medium cursor-pointer tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-800"
               >
                 Projects
               </Link>
             </li>
             <li>
               <Link
-                to="contact"
+                to="footer"
                 spy={true}
                 smooth={true}
                 duration={1000}
-                activeClass="active"
-                className="font-medium cursor-pointer tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                className="font-medium cursor-pointer tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-800 active:bg-green-700"
               >
                 Contact
               </Link>
@@ -159,44 +152,52 @@ const Navbar = () => {
                   <nav>
                     <ul className="space-y-4">
                       <li>
-                        <a
-                          href="/"
-                          aria-label="Home"
-                          title="Home"
+                        <Link
+                          to="home"
+                          spy={true}
+                          smooth={true}
+                          duration={1000}
+                          onClick={() => setIsMenuOpen(false)}
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Home
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
-                          aria-label="About"
-                          title="About"
+                        <Link
+                          to="about"
+                          spy={true}
+                          smooth={true}
+                          duration={1000}
+                          onClick={() => setIsMenuOpen(false)}
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           About
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
-                          aria-label="Projects"
-                          title="Projects"
+                        <Link
+                          to="projects"
+                          spy={true}
+                          smooth={true}
+                          duration={1000}
+                          onClick={() => setIsMenuOpen(false)}
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Projects
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
-                          aria-label="Contact"
-                          title="Contact"
+                        <Link
+                          to="contact"
+                          spy={true}
+                          smooth={true}
+                          duration={1000}
+                          onClick={() => setIsMenuOpen(false)}
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Contact
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
