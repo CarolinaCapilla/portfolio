@@ -30,7 +30,7 @@ const Contact = () => {
             aria-label=""
             className="inline-flex items-center md:px-4 md:py-2 px-2 py-1"
           >
-            <RiArrowUpSLine className="w-12 h-12 text-gray-900"></RiArrowUpSLine>
+            <RiArrowUpSLine className="w-12 h-12 text-gray-800 transform transition duration-200 hover:-translate-y-1 hover:text-purple-900"></RiArrowUpSLine>
           </a>
         </div>
       </div>
