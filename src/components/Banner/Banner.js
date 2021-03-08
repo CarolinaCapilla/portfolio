@@ -5,7 +5,7 @@ import './Banner.css';
 
 const Banner = () => {
   return (
-    <div className="relative background mx-auto">
+    <div id="home" className="relative background mx-auto">
       <img className="banner-img" src={blob} alt="banner" />
       <div className="banner-text md:mt-10 absolute">
         <h1 className="text-center text-purple-900 mx-auto text-2xl sm:max-w-xl md:text-7xl lg:max-w-screen-xl">

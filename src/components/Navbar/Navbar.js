@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
+
 import './Navbar.css';
 
 const Navbar = () => {
@@ -8,14 +10,16 @@ const Navbar = () => {
     <div className="bg-gray-900 sticky top-0 z-10">
       <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between">
-          <a
-            href="/"
-            aria-label="Carolina Capilla"
-            title="Carolina Capilla"
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={1000}
+            activeClass="active"
             className="inline-flex items-center"
           >
             <svg
-              className="w-8 text-purple-900"
+              className="w-8 text-purple-900 cursor-pointer"
               viewBox="0 0 24 24"
               strokeLinejoin="round"
               strokeWidth="2"
@@ -32,47 +36,55 @@ const Navbar = () => {
             <span className="ml-2 md:text-xl font-bold tracking-wide text-gray-100 uppercase">
               Carolina Capilla
             </span>
-          </a>
+          </Link>
           <ul className="items-center hidden space-x-8 lg:flex">
             <li>
-              <a
-                href="/"
-                aria-label="Home"
-                title="Home"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                activeClass="active"
+                className="font-medium cursor-pointer tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
-                aria-label="About"
-                title="About"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                activeClass="active"
+                className="font-medium tracking-wide cursor-pointer text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
-                aria-label="Projects"
-                title="Projects"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                activeClass="active"
+                className="font-medium cursor-pointer tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Projects
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
-                aria-label="Contact"
-                title="Contact"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                activeClass="active"
+                className="font-medium cursor-pointer tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="lg:hidden">
